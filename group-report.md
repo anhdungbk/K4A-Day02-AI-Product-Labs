@@ -6,14 +6,14 @@
 
 ## Thành viên nhóm
 
-| STT | Họ và tên        | Mã học viên       | Vai trò trong nhóm                                                 |
-| --- | ---------------- | ----------------- | ------------------------------------------------------------------ |
-| 1   | Nguyễn Sơn Giang | 2A202602747 (K4A) | Facilitator + workflow owner (chủ bài được chọn)                   |
-| 2   | Vũ Thường Tín    | 2A202602955       | Research + evidence (secondary sources, tool landscape)            |
-| 3   | Đặng Hữu Tâm     | 2A202602940       | Challenge lead (người hỏi khó, giữ nhóm khỏi solution-first)       |
-| 4   | Nguyễn Anh Dũng  | 2A202602554       | Validation (interview + đếm log)                                   |
-| 5   | Lê Tuấn Anh      | 2A202602952       | Writer + metric owner (giữ metric đo được)                         |
-| 6   | Hoàng Anh Tài    | 2A202602612       | Domain check (đối chiếu bài toán với bối cảnh doanh nghiệp / data) |
+| STT | Họ và tên        | Mã học viên | Vai trò trong nhóm                                                 |
+| --- | ---------------- | ----------- | ------------------------------------------------------------------ |
+| 1   | Nguyễn Sơn Giang | 2A202602747 | Facilitator + workflow owner (chủ bài được chọn)                   |
+| 2   | Vũ Thường Tín    | 2A202602955 | Research + evidence (secondary sources, tool landscape)            |
+| 3   | Đặng Hữu Tâm     | 2A202602940 | Challenge lead (người hỏi khó, giữ nhóm khỏi solution-first)       |
+| 4   | Nguyễn Anh Dũng  | 2A202602554 | Validation (interview + đếm log)                                   |
+| 5   | Lê Tuấn Anh      | 2A202602952 | Writer + metric owner (giữ metric đo được)                         |
+| 6   | Hoàng Anh Tài    | 2A202602612 | Domain check (đối chiếu bài toán với bối cảnh doanh nghiệp / data) |
 
 **Candidate problem nhóm chọn (1 câu):**
 
@@ -202,7 +202,7 @@ Nhóm chọn **Option A (interview)** kết hợp đếm log thật. Trước kh
 | **Secondary evidence** — BambooHR, _The Definitive Guide to Onboarding_ (khảo sát 1.500 nhân viên toàn thời gian tại Mỹ + phỏng vấn 40+ new hire, công bố 01/2024). [Link](https://www.bamboohr.com/resources/guides/the-definitive-guide-to-onboarding) |               1.500 | Frustration đứng đầu của new hire: **"No clear points of contact for questions — 65%"**. Báo cáo cũng liệt kê thiếu quyền truy cập công cụ và lỗi công nghệ/setup trong nhóm vấn đề hàng đầu.                                                                                                                                                                                                                                                    | Đây là khảo sát do một vendor HR thực hiện → có động cơ thương mại, và mẫu là nhân viên Mỹ, không phải sinh viên/lab Việt Nam.                                                                                  | **Chỉ dùng để chứng minh pain không phải cá biệt, tuyệt đối không dùng làm baseline.** Baseline phải là số nhóm tự đo. Nhóm chỉ trích con số 65% đã verify trực tiếp trên trang nguồn; các con số khác trong bản scan cá nhân không kiểm lại được nên không đưa vào đây. |
 | **Interview 3 người mới nhất** (Dũng chạy, mỗi cuộc 5 phút theo script bên dưới)                                                                                                                                                                         |                   3 | Cả 3 đều mất **4-7 ngày làm việc** tới task thật đầu tiên (4, 6, 7 ngày). Người thứ hai: _"Em cài môi trường mất gần hai ngày, cuối cùng lỗi chỉ vì version khác trong README"_. Người thứ ba: _"Em biết là nên hỏi, nhưng ngại nhắn nhiều nên ngồi mò tiếp"_. Cả 3 nói câu tốn thời gian nhất là **dữ liệu nằm ở đâu và cách chia nào là chuẩn**.                                                                                               | Người mất ít nhất (4 ngày) giải thích _"có anh khóa trên ngồi cạnh chỉ luôn"_ — tức khi người cũ rảnh thì vấn đề gần như biến mất. Bottleneck thật là **độ sẵn sàng của người cũ**, không phải độ khó của việc. | Đổi cách phát biểu bottleneck: không phải "người mới thiếu tài liệu" mà là **"người mới bị chặn theo lịch rảnh của người cũ"**. Thêm một pain chưa ai nêu: người mới **ngại hỏi** nên tự kéo dài thời gian → future workflow phải có kênh hỏi không tốn phí xã hội.      |
 
-**Script interview 5 phút (dùng nguyên, hỏi 3 người mới nhất vào lab/team/nhóm môn):**
+**Script interview đã dùng (5 phút/người, hỏi 3 người mới nhất):**
 
 ```text
 1. Từ lúc bạn được cấp quyền truy cập đến lúc bạn chạy được thí nghiệm/
@@ -688,40 +688,6 @@ thuộc vào việc AI hoạt động, nên xấu nhất workflow quay về mứ
 - [x] Có so sánh Rule/Workflow/Agent trên cùng một bài + Decision Go/Not Yet/No-Go có lý do và có cổng đo
 - [x] Có ghi rõ số nào đã đo, số nào còn là ước lượng (bảng giả định ở 4.1)
 - [x] Có quote nguyên văn từ 3 interview, và ghi rõ 2 số còn là ước lượng kèm cách đo
-
----
-
-## Phụ lục — chuẩn bị trình bày
-
-> Phần này không thuộc yêu cầu chấm điểm. Để cả nhóm đọc trước buổi trình bày và nói cùng một mạch.
-
-### Ba con số phải thuộc
-
-| Số                            | Giá trị                    | Trạng thái — quan trọng khi bị hỏi |
-| ----------------------------- | -------------------------- | ---------------------------------- |
-| Thời gian tới task đầu tiên   | **~5,7 ngày** (4 / 6 / 7)  | Đã hỏi 3 người thật                |
-| Câu hỏi lặp mỗi người mới     | **15-25 câu** / 2 tuần đầu | Đã đếm từ log chat, 2 đợt          |
-| Tỉ lệ checklist tĩnh phủ được | **~65%** (mẫu ~20 câu)     | Mới là chỉ dấu, chưa phải kết luận |
-
-Nếu bị hỏi một con số không có trong bảng này, câu trả lời đúng là _"số đó nhóm chưa đo, đây là ước lượng"_ — bảng giả định ở 4.1 ghi rõ từng cái.
-
-### Dàn ý 5 phút
-
-| Phút      | Ai          | Nói gì                                                                                                                                                                                                            |
-| --------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0:00-0:45 | Giang       | Câu mở: _"Người mới vào một nhóm kỹ thuật mất gần một tuần mới làm được việc đầu tiên — không phải vì việc khó, mà vì mọi thứ cần biết nằm trong đầu người cũ chứ không ở đâu cả."_ Rồi nói ngay 3 con số ở trên. |
-| 0:45-1:45 | Tâm         | Nhật ký hội tụ: 18 candidates → 4 cluster → 3 shortlist → 1. Nhấn **vì sao tách cluster A và B** (chưa ghi ra vs. đã ghi nhưng không tìm được) — đây là đoạn cho thấy nhóm suy nghĩ chứ không vote.               |
-| 1:45-2:45 | Dũng        | Validation: mini-poll nội bộ 4/6 độc lập trùng cluster A, 3 interview, và **phát hiện "ngại hỏi"** làm nhóm phải đổi cách phát biểu bottleneck.                                                                   |
-| 2:45-3:45 | Giang + Tài | Workflow before/after: chỉ vào hai bước nghẽn dính nhau, rồi chỉ vào lớp 0 / lớp 1 và human boundary ở bước 5 + bước 7.                                                                                           |
-| 3:45-4:30 | Tín         | Research: bước tốn nhiều ngày nhất đã có lời giải Rule chuẩn sẵn ngoài kia (dev container). Kết luận: không build trợ lý "hiểu mọi thứ".                                                                          |
-| 4:30-5:00 | Tuấn Anh    | Decision: Go hai giai đoạn, đọc to **cổng đo** và ngưỡng rollback. Kết: _"Nếu con số nói Rule là đủ, nhóm dừng — và đó là kết quả, không phải thất bại."_                                                         |
-
-### Bốn câu dễ bị challenge — và câu trả lời ngắn
-
-1. **"Checklist là đủ rồi, sao còn cần AI?"** → Rule cắt phần lớn _số ngày_, nhưng phân loại thử cho thấy còn ~35% câu hỏi (khoảng 7 câu/người) tài liệu tĩnh không phủ được. Và nhóm **không tự quyết** chuyện này: cổng đo ở 6.3 quyết, ngưỡng là 5 câu.
-2. **"Metric 'số ngày' có bị gian lận được không?"** → Có, nếu người cũ làm sẵn hết. Nên nhóm thêm bước 7: người mới phải giải thích lại bằng lời trong 5 phút, chưa qua thì chưa tính là xong.
-3. **"Mẫu 3 người interview có quá nhỏ không?"** → Nhỏ. Nhóm ghi rõ là mẫu nhỏ và không dùng nó để chốt bất cứ điều gì ngoài việc xác nhận baseline ước lượng ban đầu không lệch.
-4. **"Sao không làm Agent cho hoành tráng?"** → Không có chuỗi quyết định nào để AI tự chọn. Mọi hành động đổi trạng thái (cấp quyền, sửa cấu hình, ghi tài liệu) đều cố tình để ngoài boundary vì hậu quả rơi đúng lên người cũ — người bài toán đang muốn giảm tải.
 
 ---
 
